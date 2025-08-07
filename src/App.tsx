@@ -171,6 +171,9 @@ function App() {
         </div>
       </section>
 
+      {/* Customer Reviews Section */}
+      <ReviewSection />
+
       {/* Services Section */}
       <section className="py-12 sm:py-20 bg-gray-50">
         <div className="container mx-auto px-4 max-w-7xl">
@@ -265,9 +268,6 @@ function App() {
           </div>
         </div>
       </section>
-
-      {/* Customer Reviews Section */}
-      <ReviewSection />
       
       {/* YouTube Showcase Section */}
       <section className="py-12 sm:py-20 bg-gradient-to-br from-red-600 to-red-700 text-white">
@@ -324,26 +324,26 @@ function App() {
                       <p className="text-red-100 text-sm">See the attention to detail and professional standards we maintain</p>
                     </div>
                   </div>
-                  <div className="flex items-start space-x-3">
+                  {/* <div className="flex items-start space-x-3">
                     <Star className="h-6 w-6 text-red-200 mt-1 flex-shrink-0" />
                     <div>
                       <h5 className="font-semibold mb-1">Customer Stories</h5>
                       <p className="text-red-100 text-sm">Hear from satisfied customers about their mobile service experience</p>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
             
             {/* Video Benefits Grid */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center hover:bg-white/15 transition-all duration-200 transform hover:scale-105">
+              {/* <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center hover:bg-white/15 transition-all duration-200 transform hover:scale-105">
                 <div className="bg-red-500/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Play className="h-8 w-8 text-red-200" />
                 </div>
                 <h4 className="text-xl font-semibold mb-3">Real Work</h4>
                 <p className="text-red-100">Unedited footage of actual repairs and maintenance being performed</p>
-              </div>
+              </div> */}
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center hover:bg-white/15 transition-all duration-200 transform hover:scale-105">
                 <div className="bg-red-500/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Wrench className="h-8 w-8 text-red-200" />
@@ -351,13 +351,13 @@ function App() {
                 <h4 className="text-xl font-semibold mb-3">Expert Tips</h4>
                 <p className="text-red-100">Learn maintenance tips and tricks from experienced professionals</p>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center hover:bg-white/15 transition-all duration-200 transform hover:scale-105">
+              {/* <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center hover:bg-white/15 transition-all duration-200 transform hover:scale-105">
                 <div className="bg-red-500/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Star className="h-8 w-8 text-red-200" />
                 </div>
                 <h4 className="text-xl font-semibold mb-3">Testimonials</h4>
                 <p className="text-red-100">Hear directly from customers about their mobile service experience</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
