@@ -137,9 +137,9 @@ function App() {
               />
             </div>
             
-            {/* <div className="bg-gray-100 rounded-xl aspect-square overflow-hidden shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-105">
+            <div className="bg-gray-100 rounded-xl aspect-square overflow-hidden shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-105">
               <img 
-                src="/IMG_0804 2.PNG" 
+                src="/IMG_0979.JPG" 
                 alt="Mobile auto repair service in action" 
                 className="w-full h-full object-cover"
               />
@@ -147,11 +147,28 @@ function App() {
             
             <div className="bg-gray-100 rounded-xl aspect-square overflow-hidden shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-105">
               <img 
-                src="/IMG_0804 2 copy.PNG" 
+                src="/IMG_0968.JPG" 
                 alt="Quality automotive service" 
                 className="w-full h-full object-cover"
               />
-            </div> */}
+            </div>
+
+            <div className="bg-gray-100 rounded-xl aspect-square overflow-hidden shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-105">
+              <img 
+                src="/IMG_0980.JPG" 
+                alt="Quality automotive service" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+
+            <div className="bg-gray-100 rounded-xl aspect-square overflow-hidden shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-105">
+              <img 
+                src="/IMG_0965.JPG" 
+                alt="Quality automotive service" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+
           </div>
 
           {/* Call to Action */}
